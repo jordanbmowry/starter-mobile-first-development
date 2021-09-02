@@ -5,25 +5,102 @@ main {
 main h1 {
   margin: 0 10px;
   text-align: center;
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 65px;
 }
 
 main h2 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
   font-size: 24px;
 }
 
 main h3 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
   font-size: 18px;
 }
 
 main p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 0;
+}
+
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: 'Special Elite', cursive;
+  font-size: 24px;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+}
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+}
+
+/* layout */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.section-one {
+  justify-content: space-between;
+  margin: 1rem 0 5rem 0;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee-basics-section {
+  width: 30%;
+}
+
+.flex-row > img {
+  width: 63%;
+  display: block;
+}
+
+.section-2 {
+  justify-content: space-between;
+}
+
+.section-2-item {
+  width: 25%;
+}
+
+.section-3 {
+  justify-content: space-evenly;
+  background-color: #eab676;
+  padding: 1em 0;
+}
+
+.section-3 > img {
+  width: 20%;
 }
